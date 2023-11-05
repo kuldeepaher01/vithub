@@ -38,7 +38,6 @@ export const AuthContextProvider = ({ children }) => {
 				</Alert>;
 
 				signOut(auth);
-				// console.log(currentUser.email);
 				setUser(null);
 			} else {
 				setUser(currentUser);
